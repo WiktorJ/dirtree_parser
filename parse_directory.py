@@ -29,5 +29,5 @@ def parse(dir, ignore_directories=None, replacement=""):
     print('}')
 
 
-parse("/home/wiktor/Studies/Inż/accsoft-web-components-tvc", ignore_directories=['.git', '.idea'],
-      replacement='tvc-client')
+parse("/path/to/my/dir", ignore_directories=['.git', '.idea'],
+      replacement='/this/will/be/prefix/in/result')
